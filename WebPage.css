@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #e6f6f6;
+  background-color: #373838;
+
+}
+
+h3{
+    color: #cae6e6;
+}
+
+p{
+    color: #ffffff;
+    font-style: oblique;
+    background-color: rgba(46, 53, 54, 0.3);
+    
+
+}
+.navbar {
+  padding: 0;
+  margin: 0;
+  background-color: #c3c5c5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 20px 20px 0px;
+}
+
+li {
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+li:hover {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    color: #1479b3c5;
+    transform: 20px;
+    background-color: #00000000;
+  }
+li img {
+  width: 75px;
+  margin: 0px 20px -5px 0px;
+}
+
+.sign-btn {
+ text-decoration: none;
+ color: white;
+ float: right;
+ padding: 10px 0px 0px 0px;
+}
+.content{
+    display: flex;
+    padding: 10px;
+ 
+}
+
+.data{
+    width: 60%;
+    flex: 2;
+    
+    padding: 10px;
+}
+.sideimg img{
+    flex: 1;
+    
+    padding: 10px;
+}
+
+i{
+    padding: 20px;
+}
+
+@media (max-width:769px){
+    .sideimg img{
+        
+        width: 250px;
+        padding: 10px;
+    }
+    .sign-btn {
+        text-decoration: none;
+        color: white;
+        float: none;
+       }
+}
+@media (max-width:515px){
+   
+.content{
+    display: flex;
+    padding: 10px;
+    
+    background-image: url('./images/batman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.data{
+    
+    flex: 2;
+    
+    padding: 10px;
+}
+.sideimg img{
+    flex: 1;
+    width: 0px;
+    
+    padding: 10px;
+} 
+
+
+ul {
+    background-color: #252222;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0%;
+  }
+
+  li{
+      display: block;
+      
+      margin: 2px;
+      
+      background-color: #272927;
+      border-left: 2px solid white ;
+  }
+  li:hover{
+    display: block;
+    
+    margin: 2px;
+    padding: 10px 10px 10px 10px;
+    background-color: #000000;
+    
+}
+
+  li img {
+   background-color: #000000;
+   display: block;
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   border:black 3px solid;
+  }
+  
+}
+
+.content-from{
+    text-decoration: none;
+    color: white;
+    margin: 100px 0px 10px 0px;
+    padding: 50px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: gray;
+    
+}
+
+.content-from a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+@media (max-width:350px){
+   
+    .content{
+        display: flex;
+        padding: 2px;
+        
+        background-image: url('./images/batman.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+    
+    .data{
+        
+        flex: 2;
+        
+        padding: 10px;
+    }
+    .sideimg img{
+        flex: 0;
+        width: 0px;
+        
+        padding: 2px;
+    } 
+    }
